@@ -30,3 +30,4 @@ CI is ~5 lines that call the reusable golden-path workflow (`.github/workflows/c
 Everything else — scanning, signing, attestation, the digest-bump PR against
 `platform-gitops` — happens on the paved road. Deployment manifests live in
 `platform-gitops/apps/weather-api/`, never here.
+# trigger ci
